@@ -141,13 +141,15 @@ Used for prize distribution and fraud prevention.
 
 # 🎮 LFG / Matchmaking & Analytics Data
 
-When users interact with the **Looking For Game (LFG)** system, additional operational and analytical data is collected to provide matchmaking functionality and improve performance.
+When users interact with the **Looking For Game (LFG)** system, ATS Utilities collects operational and analytical data required to provide matchmaking functionality and improve system performance.
 
-We apply strict minimization — analytics are system-focused, not surveillance-focused.
+We apply strict data minimization — analytics are system-focused, not surveillance-focused.
 
 ---
 
 ## 📋 Matchmaking Profile Data
+
+When creating an LFG entry, the following may be stored:
 
 - Discord User ID  
 - Username / display name  
@@ -156,39 +158,43 @@ We apply strict minimization — analytics are system-focused, not surveillance-
 - Match status (waiting / matched)  
 - Matched user ID (if applicable)
 
+This data is required for real-time matchmaking functionality.
+
 ---
 
 ## 🎯 Preference Data
 
-If provided:
+If voluntarily provided by users:
 
 - Map preferences  
-- Age preferences (if enabled)  
+- Age preferences (if enabled by the server)  
 - Skill level selection  
 - Gameplay preferences  
 
-Used solely for compatibility matching.
+Used solely to improve compatibility and match quality.
 
 ---
 
 ## ⏱️ Wait Time Analytics
 
-- Time spent waiting  
+To optimize queue performance, we track:
+
+- Time spent waiting for matches  
 - Average wait durations  
 - Match completion times  
 - Queue congestion metrics  
 
-Used to improve matchmaking speed and balance.
+These metrics help balance matchmaking systems.
 
 ---
 
 ## 📊 Activity & Usage Analytics
 
-Aggregated statistics such as:
+We collect aggregated statistics such as:
 
-- Daily LFG searches  
-- Unique daily users  
-- Peak concurrent usage  
+- Number of LFG searches per day  
+- Unique LFG users per day  
+- Peak concurrent matchmaking users  
 - Total matches created  
 - Quick vs manual match ratios  
 
@@ -196,44 +202,44 @@ Aggregated statistics such as:
 
 ## 🔁 Retention & Engagement Metrics
 
-- Returning vs new users  
-- Frequency of LFG usage  
-- Repeat participation rates  
+To evaluate system effectiveness:
 
-Used to evaluate system usefulness.
+- Returning vs new LFG users  
+- Frequency of LFG participation  
+- Repeat matchmaking usage  
 
 ---
 
 ## 🧠 Skill & Preference Trends
 
-Aggregated analysis including:
+We may analyze anonymized trends such as:
 
-- Popular skill levels  
-- Common map selections  
-- Match success rates  
-
-No individual behavioural profiling occurs.
+- Most selected skill levels  
+- Popular map choices  
+- Match success rates by preference  
 
 ---
 
 ## 💬 Feedback & Satisfaction Data
 
-If feedback systems are enabled:
+Where feedback systems are enabled:
 
 - User ID  
-- Rating scores  
-- Written feedback  
-- Match type  
+- Match rating score  
+- Written feedback comments  
+- Match type (manual / automatic)  
 - Feedback timestamps  
 
-Used to improve matchmaking quality.
+Used solely for service improvement.
 
 ---
 
 ## 🚫 Blocking & Safety Data
 
+To ensure safe matchmaking:
+
 - Blocked user IDs  
-- LFG bans  
+- LFG participation bans  
 - Matchmaking safety flags  
 
 Prevents unwanted pairings.
@@ -242,11 +248,11 @@ Prevents unwanted pairings.
 
 ## 📩 Notification Data
 
+Operational messaging may store:
+
 - DM reminder message IDs  
 - Notification timestamps  
 - Delivery status  
-
-Operational use only.
 
 ---
 
@@ -259,21 +265,47 @@ If match threads are created:
 - Participant user IDs  
 - Notification history  
 
-Ensures session continuity.
+Ensures session continuity and moderation oversight.
+
+---
+
+# 🔐 Anonymisation & Aggregation Safeguards
+
+To protect user privacy within analytics systems:
+
+- All user demographic data is **aggregated and anonymised**  
+- Retention calculations use **only numerical counts**, not individual user tracking  
+- No traceable demographic user information is stored or displayed in analytics outputs  
+- Trend analysis is performed on grouped datasets only  
+
+Analytics systems are designed to measure system performance — not individual behaviour.
 
 ---
 
 ## 🔐 How LFG Analytics Are Used
 
-Analytics help us:
+Analytics data is used to:
 
 - Improve matchmaking speed  
 - Optimize queue balancing  
-- Detect abuse  
-- Identify peak usage  
+- Detect abuse patterns  
+- Identify peak usage periods  
 - Enhance user experience  
 
-We do **not** sell or monetize analytics data.
+We do **not** sell, profile, or monetize LFG analytics data.
+
+---
+
+## 🧹 LFG Data Retention
+
+| Data Type | Retention |
+|-----------|------------|
+| Active entries | Until expiry or match |
+| Match history | Operational retention |
+| Aggregated analytics | Rolling anonymised retention |
+| Feedback logs | Service improvement period |
+
+Users may request deletion at any time via `/privacy delete`.
 
 ---
 
