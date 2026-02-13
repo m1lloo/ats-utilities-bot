@@ -120,7 +120,7 @@ Fraudulent entry attempts may result in disqualification.
 
 ---
 
-### 7.2 Booster Rewards
+## 7.2 Booster Rewards
 
 Boost tracking includes:
 
@@ -128,7 +128,31 @@ Boost tracking includes:
 - Reward eligibility  
 - Claim records  
 
-Abuse (e.g., boost → claim → cancel) may result in restriction.
+Abuse of booster systems is strictly prohibited.
+
+This includes, but is not limited to:
+
+- Boost → claim → cancel behaviour  
+- Cycling boosts between servers for repeated claims  
+- Attempting to reclaim previously issued rewards  
+- Artificially inflating boost status for reward gain  
+
+### Alternate Account Usage
+
+Use of alternate, secondary, or affiliated Discord accounts to obtain duplicate booster rewards is prohibited.
+
+Booster rewards are limited to **one reward set per individual user** unless explicitly authorised.
+
+### Enforcement
+
+The developer & server owner reserves the right to:
+
+- Restrict reward eligibility  
+- Revoke improperly obtained rewards  
+- Deny future booster claims  
+
+where boosting activity is determined to be artificially inflated, fraudulent, or in violation of these Terms.
+
 
 ---
 
