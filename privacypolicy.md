@@ -321,7 +321,7 @@ These references:
 - Do not track user activity  
 - Do not collect additional personal data  
 
-All promotional or advertisement content is implemented **only with prior approval from the server ownership or administration team**.
+All promotional or advertisement content is implemented **only with prior approval from the server ownership or administration team** (excluding **imxmilo**).
 
 Server owners retain the right to:
 
