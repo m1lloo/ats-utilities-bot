@@ -321,12 +321,19 @@ These references:
 - Do not track user activity  
 - Do not collect additional personal data  
 
+All promotional or advertisement content is implemented **only with prior approval from the server ownership or administration team**.
+
+Server owners retain the right to:
+
+- Approve promotional placement  
+- Request removal of promotional content  
+- Restrict advertising visibility within their server  
+
 TomLabs is owned and operated by the bot developer (**imxmilo**).
 
-Promotional content is minimal, non-intrusive, and exists solely to reference related services.
+Promotional content is minimal, non-intrusive, and exists solely to reference related development services.
 
 ---
-
 
 # ⚖️ Legal Basis for Processing
 
