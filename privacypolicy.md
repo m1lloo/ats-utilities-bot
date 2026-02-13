@@ -309,6 +309,25 @@ Users may request deletion at any time via `/privacy delete`.
 
 ---
 
+## 📢 Promotional Content & Service Footers
+
+In limited circumstances, ATS Utilities may include small promotional references within embed footers or informational responses.
+
+These references:
+
+- Appear only in less-used or informational features  
+- Promote services operated exclusively by **TomLabs**  
+- Do not contain behavioural advertising  
+- Do not track user activity  
+- Do not collect additional personal data  
+
+TomLabs is owned and operated by the bot developer (**imxmilo**).
+
+Promotional content is minimal, non-intrusive, and exists solely to reference related services.
+
+---
+
+
 # ⚖️ Legal Basis for Processing
 
 We process data under:
