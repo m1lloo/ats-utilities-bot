@@ -244,7 +244,15 @@ Use of the bot is also subject to their respective terms.
 
 ---
 
-## 16. Indemnification
+## 16. Promotional References
+
+The bot may include minimal first-party promotional references within certain informational features.
+
+Any such content is implemented only with server ownership approval and does not constitute third-party advertising or user data monetisation.
+
+---
+
+## 17. Indemnification
 
 You agree to indemnify the developer from claims arising from:
 
@@ -255,7 +263,7 @@ You agree to indemnify the developer from claims arising from:
 
 ---
 
-## 17. Changes to Terms
+## 18. Changes to Terms
 
 These Terms may be updated at any time.
 
@@ -269,7 +277,7 @@ Continued use constitutes acceptance.
 
 ---
 
-## 18. Governing Law
+## 19. Governing Law
 
 These Terms are governed by the laws of:
 
@@ -277,7 +285,7 @@ These Terms are governed by the laws of:
 
 ---
 
-## 19. Contact
+## 20. Contact
 
 **Developer:** imxmilo  
 **Hosting:** bot-hosting.net  
